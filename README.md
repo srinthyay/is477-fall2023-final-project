@@ -1,9 +1,5 @@
 ## Overview 
 
-that describes your project (~200 words). This should include a
-description of the selected dataset (from step 1) and your analysis/visualization
-(from step 7).
-
 The Car Evaluation dataset is from the UC Irvine Machine Learning Repository and was uploaded on May 31, 1997. It includes information about a car's buying price, it's price of maintenance, the number of doors, the number of people it seats, the size of the trunk(also called luggage boot), the estimated safety of the car, and the evaluation level of the car(unacceptable, acceptable, good, very good) and the variables are called buying, maint, doors, persons, lug_boot, safety,  class, respectively. There are 6 variables and they are akk categorical and the target variable is class while the other variables are features.
 
 The analysis that I decided to do with this dataset is identifying the range of car prices customers buy their cars for and after doing the analysis that resulted in a bar graph - it was shown that the frequency of buying prices was the same across all 4 categories which were vhigh, high, med, low.
