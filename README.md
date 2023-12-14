@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/730421604.svg)](https://zenodo.org/doi/10.5281/zenodo.10373096) 
+
 ## Overview 
 
 The Car Evaluation dataset is from the UC Irvine Machine Learning Repository and was uploaded on May 31, 1997. It includes information about a car's buying price, it's price of maintenance, the number of doors, the number of people it seats, the size of the trunk(also called luggage boot), the estimated safety of the car, and the evaluation level of the car(unacceptable, acceptable, good, very good) and the variables are called buying, maint, doors, persons, lug_boot, safety,  class, respectively. There are 6 variables and they are akk categorical and the target variable is class while the other variables are features.
