@@ -19,7 +19,7 @@ if response.status_code == 200:
         sha256hash = hashlib.sha256(data).hexdigest()
 
     if sha256hash == expected_hash_adult:
-        print("Computed hash matches expected hash for car dataset")
+        print("Computed hash matches expected hash")
 
         # Ensure 'data' directory exists
         if not os.path.exists('data'):
@@ -41,7 +41,7 @@ if response.status_code == 200:
         
 
     else:
-        print("Computed hash does not match expected hash for car dataset")
+        print("Computed hash does not match expected hash")
 else:
     print(f"Could not download car evaluation.zip. Status code: {response.status_code}")
 

@@ -16,11 +16,11 @@ rule analysis:
     input:
         "data/car.csv"
     output:
-        "results/buying.png"
+        "results/summary_stats.csv"
     shell:
         "scripts/analysis.py"
 
 rule reproduce:
     input:
-        "results/buying.png",
+        "results/summary_stats.csv",
         "profiling/profiling.html"
