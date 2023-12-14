@@ -1,0 +1,26 @@
+rule prepare:
+    output:
+        "data/car.csv"
+    shell:
+        "python prepare_data.py"
+
+rule profile:
+    input:
+        "data/car.csv"
+    output:
+        "profiling/profiling.html"
+    shell:
+        "python scripts/profile.py"
+
+rule analysis:
+    input:
+        "data/car.csv"
+    output:
+        "results/summary_stats.csv"
+    shell:
+        "scripts/analysis.py"
+
+rule reproduce:
+    input:
+        "results/summary_stats.csv",
+        "profiling/profiling.html"

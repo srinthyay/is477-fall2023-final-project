@@ -1,0 +1,7 @@
+ydata_profiling
+requests
+pandas
+snakemake
+scikit-learn
+urllib3
+ 
