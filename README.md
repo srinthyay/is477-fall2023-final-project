@@ -4,9 +4,9 @@
 
 ## Overview 
 
-The Car Evaluation dataset is from the UC Irvine Machine Learning Repository and was uploaded on May 31, 1997. It includes information about a car's buying price, it's price of maintenance, the number of doors, the number of people it seats, the size of the trunk(also called luggage boot), the estimated safety of the car, and the evaluation level of the car(unacceptable, acceptable, good, very good) and the variables are called buying, maint, doors, persons, lug_boot, safety,  class, respectively. There are 6 variables and they are akk categorical and the target variable is class while the other variables are features.
+The Car Evaluation dataset is from the UC Irvine Machine Learning Repository and was uploaded on May 31, 1997. It includes information about a car's buying price, it's price of maintenance, the number of doors, the number of people it seats, the size of the trunk(also called luggage boot), the estimated safety of the car, and the evaluation level of the car(unacceptable, acceptable, good, very good) and the variables are called buying, maint, doors, persons, lug_boot, safety,  class, respectively. There are 6 variables and they are all categorical, the target variable is class while the other variables are features.
 
-The analysis that I decided to do with this dataset is identifying the range of car prices customers buy their cars for and after doing the analysis that resulted in a bar graph - it was shown that the frequency of buying prices was the same across all 4 categories which were vhigh, high, med, low.
+The analysis that I decided to do with this dataset is identifying the range of buying car prices customers buy their cars for and after doing the analysis that resulted in a frequency bar graph - it was shown that the frequency of buying prices was the same across all 4 categories which were vhigh, high, med, low.
 
 ## Analysis 
 
@@ -40,11 +40,11 @@ Execute the scripts in order:
      
      python scripts/dag.py
 
-Going through with these steps will help you set up the necessary environment, run the script successfuly resulting in the proper outputs.
+Going through with these steps will help you set up the necessary environment, run the script successfully resulting in the proper outputs.
 
 ## License
 Software License: MIT License 
-- open source and freely available allowing free use of data as long as credit is given to the original contributer.
+- open source and freely available allowing ffor ree use of data as long as credit is given to the original contributer.
 Data License: Creative Commons Attribution 4.0 License (CC-BY-4.0) 
 -  permits redistribution which is the sharing and use of data/content while giving appropriate credit.
 
