@@ -20,7 +20,7 @@ if response.status_code == 200:
 
     if sha256hash == expected_hash_adult:
         print("Computed hash matches expected hash")
-
+      
         # Ensure 'data' directory exists
         if not os.path.exists('data'):
             os.makedirs('data')

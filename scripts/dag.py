@@ -18,7 +18,7 @@ with open("Snakefile1", "r") as fin:
         if flag and last_keyword:
           rules[rule_name][last_keyword] = rules[rule_name][last_keyword] + line
         flag =True
-
+     
 def ptxt(text):
   return '"' + text.replace("'", "").replace('"', '') + '"'
 

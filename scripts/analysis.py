@@ -24,7 +24,7 @@ for col in car_data.columns:
        print(car_data[col].value_counts(normalize=True)) 
 
 summary_stats = car_data.describe()
-summary_stats.to_csv(os.path.join(output_dir, 'summary_stats.csv'))        
+summary_stats.to_csv(os.path.join(output_dir, 'summary_stats.csv'))              
 
 
 

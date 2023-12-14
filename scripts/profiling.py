@@ -11,3 +11,7 @@ if not os.path.exists("profiling"):
 
 profile = ProfileReport(df, title="Profiling Report")
 profile.to_file("profiling/profiling.html")       
+
+
+
+
