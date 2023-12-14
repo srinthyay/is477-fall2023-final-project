@@ -8,7 +8,7 @@ import pandas as pd
 url_car_zip = 'https://archive.ics.uci.edu/static/public/19/car+evaluation.zip'
 expected_hash_adult = '1559d51dcf327f4f8c71b711ceed7fd95a382fc8d8e1998667f4f23b82860403'
 
-# Download and verify the car dataset
+# Download and verify the car dataset      
 response = requests.get(url_car_zip)
 if response.status_code == 200:
     with open('car+evaluation.zip', mode='wb') as f:
