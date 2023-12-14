@@ -1,6 +1,6 @@
 # Reproduction of Car Evaluation Dataset (IS477)
 
-[![DOI](https://zenodo.org/badge/730421604.svg)](https://zenodo.org/doi/10.5281/zenodo.10373096)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10383728.svg)](https://doi.org/10.5281/zenodo.10383728)
 
 ## Overview  
 
